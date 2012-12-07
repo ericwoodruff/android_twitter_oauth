@@ -1,0 +1,11 @@
+<ivysettings>
+<settings defaultResolver="external"/>
+
+<resolvers>
+	<chain name="external">
+    	<ibiblio name="twitter4j" m2compatible="true" root="http://twitter4j.org/maven2/"/>
+    	<ibiblio name="maven2" m2compatible="true"/>
+	</chain>
+</resolvers>
+
+</ivysettings>

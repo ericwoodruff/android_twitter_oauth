@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OAuthExample</string>
+	<string name="refresh_failure">Failed to refresh, please try again later</string>
+	
+	<!-- Twitter OAuth -->
+	<string name="twitter_callback_url">http://android.callback.ericwoodruff.me/</string>
+	<string name="authentication_failure">Unable to authenticate, please try again later</string>
+	<string name="authentication_cancelled">Authentication cancelled</string>
+</resources>

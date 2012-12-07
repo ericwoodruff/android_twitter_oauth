@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+    <info organisation="me.ericwoodruff" module="mobile" status="integration">
+	</info>
+	<configurations>
+		<conf name="runtime"/>
+		<conf name="compile" extends="runtime"/>
+		<conf name="test" extends="runtime"/>
+		<conf name="test-dev" extends="compile, test"/>
+	</configurations>
+	<dependencies>
+		<dependency org="org.twitter4j" name="twitter4j-core" rev="3.0.3-SNAPSHOT" conf="runtime->*"/>
+		
+		<exclude org="com.google.android"/>
+		<exclude org="org.apache.openejb"/>
+	</dependencies>
+</ivy-module>
